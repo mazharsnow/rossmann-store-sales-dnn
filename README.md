@@ -58,7 +58,7 @@ python -m venv venv
 **Linux / macOS**
 ```bash
 # Create virtual environment
-python -m venv venv
+python3 -m venv venv
 
 # Activate
 source venv/bin/activate
@@ -107,7 +107,7 @@ If someone else clones this repository on a fresh machine, they would need to ob
 
 With the virtual environment activated and data in place, run:
 ```bash
-python rossmann_dnn.py
+python3 rossmann_dnn.py
 ```
 
 ### What `rossmann_dnn.py` does
